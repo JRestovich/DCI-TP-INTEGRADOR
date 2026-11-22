@@ -1,0 +1,18 @@
+# Preferencias locales del usuario
+*.kicad_prl
+
+# Bloqueos temporales
+~*.lck
+
+# Autoguardado
+_autosave-*
+\#auto_saved_files#
+
+# Backups automáticos
+*-backups/
+*.bak
+*.bck
+*~
+
+# Caché de visualización 3D
+*.wrlcache
