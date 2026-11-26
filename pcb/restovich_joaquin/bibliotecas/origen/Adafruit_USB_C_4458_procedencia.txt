@@ -1,0 +1,46 @@
+Biblioteca USB-C extraida del esquematico original de Adafruit.
+Fecha de extraccion: 2026-11-25.
+
+Fuente:
+https://raw.githubusercontent.com/adafruit/Adafruit-MicroLipo-PCB/master/Adafruit%20USB%20C%20microlipo%20charger.sch
+Proyecto: https://github.com/adafruit/Adafruit-MicroLipo-PCB
+Producto: https://www.adafruit.com/product/4458
+Plano: https://cdn-shop.adafruit.com/product-files/4458/P4458_C12876_datasheet.png
+
+Archivo fuente: Adafruit USB C microlipo charger.sch
+Biblioteca fuente: microbuilder
+Instancia fuente: X2
+Device set: USB_C
+Simbolo: USB_C
+Package: USB_C_CUSB31-CFM2AX-01-X
+
+Metodo: extraccion XML de los elementos package, symbol y deviceset;
+se conservan su contenido, geometria, nombres y asignacion pin-pad.
+Se conservan settings, grid, layers y la descripcion de la biblioteca,
+incluidos su autor y texto de licencia. No se convierte a formato KiCad.
+Se verifica igualdad estructural de los tres elementos con el original
+para la fuente identificada por SHA-256 abajo.
+
+Limites: XML verificado; no se ejecuto la importacion en KiCad, porque
+kicad-cli no esta disponible en este entorno. Falta verificar la lectura,
+la conversion, el enlace simbolo-huella y la geometria contra el plano.
+El nombre del package no confirma por si solo un fabricante o MPN.
+
+Correspondencia conservada:
+CC1 -> A5
+CC2 -> B5
+D+ -> A6 B6
+D- -> A7 B7
+GND -> A1B12 B1A12
+SBU1 -> A8
+SBU2 -> B8
+VBUS -> A4B9 B4A9
+Los pads M1, M2, M3 y M4 no tienen conexion a pines del simbolo original.
+
+SHA-256 fuente: 9c192a9e6798051c342fc1a4cf98961865ffef42d8c8a86f07fbf9cfe44b5752
+SHA-256 LBR: 844c2b0672ca1968c2a3bcc04a1b4f722e0253172bf50ea570288667fed51d85
+
+Verificacion adicional de la PCB original:
+https://raw.githubusercontent.com/adafruit/Adafruit-MicroLipo-PCB/master/Adafruit%20USB%20C%20microlipo%20charger.brd
+SHA-256 BRD: b8e763aba83878db3fe9ff061a46e61d8c958ce7d2dfae46ad26c27f44c36639
+Igualdad estructural de package entre SCH y BRD: True
