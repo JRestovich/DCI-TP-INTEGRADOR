@@ -10,6 +10,8 @@
 		(rev "0.1")
 		(company "DCI - CESE 26Co2026")
 		(comment 1 "Autor: Joaquin Restovich")
+		(comment 2 "Original: Adafruit Industries / Limor Fried")
+		(comment 3 "Licencia: CC BY-SA 3.0")
 	)
 	(lib_symbols
 		(symbol "Adafruit_USB_C_4458:USB_C"
