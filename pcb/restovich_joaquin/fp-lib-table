@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit_USB_C_4458")(type "Eagle")(uri "${KIPRJMOD}/bibliotecas/origen/Adafruit_USB_C_4458.lbr")(options "")(descr ""))
+)
