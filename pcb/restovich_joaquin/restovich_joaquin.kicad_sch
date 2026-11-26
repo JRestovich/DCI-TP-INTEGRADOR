@@ -2213,10 +2213,10 @@
 		)
 		(uuid "f9ddb53e-5086-46bf-8581-9f80f745a119")
 	)
-	(text_box "10K  = 100mA\n5.0K = 200mA\n2.0K = 500mA\n1.0K = 1000mA"
+	(text_box "Load current is inversely proportional\nto the resistance between PROG and VSS terminals\n10K  = 100mA\n5.0K = 200mA\n2.0K = 500mA\n1.0K = 1000mA"
 		(exclude_from_sim no)
-		(at 165.1 74.93 0)
-		(size 20.32 10.16)
+		(at 73.66 127 0)
+		(size 43.18 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2268,12 +2268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a49b69-618d-43e6-88ca-dd9847f3efdd")
-	)
-	(junction
-		(at 143.51 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d56a6829-264a-4fc2-970d-50f17f88b1f8")
 	)
 	(junction
 		(at 148.59 101.6)
@@ -2354,16 +2348,6 @@
 			(type default)
 		)
 		(uuid "1a0b8e36-4edd-496c-b587-e1c53a1c3651")
-	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 148.59 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8c9a18-ef68-49a9-9922-ea976022482f")
 	)
 	(wire
 		(pts
@@ -4713,6 +4697,72 @@
 			(project ""
 				(path "/58a96765-b80e-4370-9d87-9da45f6367a6"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff65fa64-44b9-412f-b75f-bdacca0a1259")
+		(property "Reference" "#PWR011"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4283c333-cae4-4487-9701-f50a663c5d14")
+		)
+		(instances
+			(project ""
+				(path "/58a96765-b80e-4370-9d87-9da45f6367a6"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
